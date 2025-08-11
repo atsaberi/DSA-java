@@ -1,0 +1,41 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Build output directories (Maven, Gradle, SBT)
+target/
+build/
+out/
+classes/
+generated/
+
+# SBT specific
+.project
+.cache
+.scala_dependencies
+.worksheet
+
+# Log files
+*.log
+
+# Java / Scala compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Temporary files
+*.swp
+*.swo
+*~
