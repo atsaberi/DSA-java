@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>${junit.version}</version>
+            <version>5.10.2</version>
             <scope>test</scope>
         </dependency>
 
@@ -42,11 +42,11 @@
             <version>${logback.version}</version>
         </dependency>
 
-        <!-- Simple Java Profiler (for learning) -->
+        <!-- integrates with Prometheos, great for tracking performance -->
         <dependency>
-            <groupId>org.gridkit.lab</groupId>
-            <artifactId>nano-profiler</artifactId>
-            <version>0.9.14</version>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-core</artifactId>
+            <version>1.11.3</version>
         </dependency>
     </dependencies>
 
